@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
-    </a>
+    
   <br />
 
   <div>
@@ -42,9 +40,7 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 
 👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
-
-👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
+👉 **Skills and Work Experience**: Prominent display of professional background for emphasis and credibility.
 
 👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
 
