@@ -1,7 +1,5 @@
+![cover-portfolio](https://github.com/RishabhJain2404/Rishabh-Portfolio/assets/127675963/9d1280ca-cdb9-44e8-9d68-fd1d0d3e8671)
 <div align="center">
-  <br />
-    
-  <br />
 
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
