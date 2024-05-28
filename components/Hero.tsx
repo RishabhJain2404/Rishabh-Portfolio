@@ -45,9 +45,9 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="#about">
+            <a href="mailto:rishabh2404jain@gmail.com">
               <MagicButton
-                title="Show my work"
+                title="Contact Me"
                 icon={<FaLocationArrow />}
                 position="right"
               />
