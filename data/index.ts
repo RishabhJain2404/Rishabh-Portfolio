@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "Home", link: "#home"},
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
@@ -9,7 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Curious mind, constantly exploring the world of frontend development",
+    title:
+      "Curious mind, constantly exploring the world of frontend development",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -50,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: " I'm actively learning Next.js",
+    title: " I'm continuously learning and exploring new technologies",
     description: "To enhance my development skills",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,57 +74,53 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Taskify - A Project Management App",
+    title: "Taskify - A Teamwork Project Management App",
     des: "A dynamic project management app which  empowers users to collaborate, organize tasks, and manage projects effectively.",
     img: "/p1.svg",
     iconLists: [
       "/re.svg",
       "/next.svg",
       "/ts.svg",
-      "/prisma-icon.svg",
       "/tail.svg",
+      "/prisma-icon.svg",
       "/postgresql-icon.svg",
+      "/supabase-icon.svg",
       "/c.svg",
     ],
-    link1: "https://github.com/RishabhJain2404/taskify-app",
-    link2: "https://taskify-app-virid.vercel.app/",
+    link: "https://github.com/RishabhJain2404/taskify-app",
   },
   {
     id: 2,
-    title: "Blogify - A  MERN Blog Web App",
-    des: " A blog app using the MERN stack to empower users to create, share, and interact with content.",
+    title: "Schedulrr -An Online Appointment Scheduling Web App",
+    des: "A robust online appointment scheduling platform that empowers users to efficiently manage their schedules and collaborate with others.",
     img: "/p2.svg",
     iconLists: [
       "/re.svg",
-      "/redux-icon.svg",
-      "/nodejs-icon.svg",
-      "/express-icon.svg",
-      "/mongo-icon.svg",
+      "/next.svg",
       "/tail.svg",
+      "/postgresql-icon.svg",
+      "/prisma-icon.svg",
+      "/c.svg",
     ],
-    link1: "https://github.com/RishabhJain2404/blogify-mern-app",
-    link2: "https://blogify-mern-app.onrender.com/",
+    link: "https://github.com/RishabhJain2404/Online-Appointment-Scheduling-App",
   },
   {
     id: 3,
-    title: "SumZ - AI Article Summarizer",
-    des: "AI Article Summarizer app to empower users with efficient information access to quickly grasp key points from articles.",
+    title: "Hirrd - A Job Portal Web App",
+    des: "A comprehensive job platform that streamlines the hiring process, empowering both candidates and employers to achieve their goals.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/redux-icon.svg"],
-    link1: "https://github.com/RishabhJain2404/AI-Article-Summarizer-App",
-    link2: "https://polite-tanuki-8520eb.netlify.app/",
+    iconLists: ["/re.svg", "/tail.svg", "/supabase-icon.svg", "/c.svg"],
+    link: "https://github.com/RishabhJain2404/Job_Portal_react_app",
   },
   {
     id: 4,
-    title: "YouTube Clone Web App",
-    des: "Built a YouTube clone app using ReactJS, RapidAPI, and Material UI. It offers video sections, custom categories, channel pages, and smooth playback, mimicking the user experience of YouTube.",
+    title: "ShortenIt - A URL Shortener Web App",
+    des: "A user-friendly web app that allows users to shorten long and complex URLs into concise, memorable links.",
     img: "/p4.svg",
-    iconLists: ["/re.svg", "/material-ui.svg"],
-    link1: "https://github.com/RishabhJain2404/YouTube-Clone",
-    link2: "",
+    iconLists: ["/re.svg", "/tail.svg", "/supabase-icon.svg"],
+    link: "https://github.com/RishabhJain2404/ShortenIt-react-app",
   },
 ];
-
 
 export const skills = [
   {
@@ -152,14 +149,14 @@ export const skills = [
   },
   {
     id: 5,
-    name: "Redux",
-    img: "/redux-icon.svg",
+    name: "Tailwind",
+    img: "/tailwind-icon.svg",
     nameImg: "/dockerName.svg",
   },
   {
     id: 6,
-    name: "Tailwind",
-    img: "/tailwind-icon.svg",
+    name: "Redux",
+    img: "/redux-icon.svg",
     nameImg: "/dockerName.svg",
   },
   {
@@ -182,50 +179,32 @@ export const skills = [
   },
   {
     id: 10,
-    name: "NodeJS",
-    img: "/nodejs-icon.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 11,
-    name: "ExpressJS",
-    img: "/express-icon.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 12,
     name: "PostgreSQL",
     img: "/postgresql-icon.svg",
     nameImg: "/dockerName.svg",
   },
   {
-    id: 13,
-    name: "MySQL",
-    img: "/mysql-logo.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 14,
-    name: "MongoDB",
-    img: "/mongo-icon.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 15,
+    id: 11,
     name: "Webpack",
     img: "/webpack-icon.svg",
     nameImg: "/dockerName.svg",
   },
   {
-    id: 16,
+    id: 12,
     name: "Git",
     img: "/git-icon.svg",
     nameImg: "/dockerName.svg",
   },
   {
-    id: 17,
+    id: 13,
     name: "GitHub",
     img: "/github-icon.svg",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 14,
+    name: "Jira",
+    img: "/jira.svg",
     nameImg: "/dockerName.svg",
   },
 ];

@@ -38,7 +38,7 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center justify-between gap-8">
-            <a href="https://drive.google.com/file/d/1IJgzjhiG4dgKwoODAS7KBetZtmZXutbq/view?ths=true">
+            <a href="https://drive.google.com/file/d/1UcZaqcPPOMsahfwg6XBE46VUIdGPgFr-/view?usp=sharing">
               <MagicButton
                 title="Download CV"
                 icon={<FaDownload />}

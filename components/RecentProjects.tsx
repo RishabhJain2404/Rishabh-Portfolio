@@ -1,10 +1,9 @@
-import { projects } from '@/data'
-import React from 'react'
-import Link from 'next/link';
-import { CardBody, CardContainer, CardItem } from './ui/3d-card';
-import ShimmerButton from './ui/ShimmerButton';
-import LitUpButton from './ui/LitUpButton';
-import Image from 'next/image';
+import { projects } from "@/data";
+import React from "react";
+import Link from "next/link";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import ShimmerButton from "./ui/ShimmerButton";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -13,7 +12,7 @@ const RecentProjects = () => {
         My Recent <span className="text-purple">Work</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link1, link2 }) => (
+        {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[36rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[90vw]"
@@ -43,11 +42,12 @@ const RecentProjects = () => {
                 >
                   {des}
                 </CardItem>
-                <CardItem>
+
+                <div className="flex items-center justify-between mt-7 mb-3">
                   <div className="flex items-center gap-2">
                     {iconLists.map((icon, index) => (
                       <div
-                        key={icon}
+                        key={index}
                         className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                         style={{
                           transform: `translateX(-${5 * index + 2}px)`,
@@ -57,25 +57,12 @@ const RecentProjects = () => {
                       </div>
                     ))}
                   </div>
-                </CardItem>
-                <div className="flex justify-between items-center mt-20 gap-10">
-                  <CardItem
-                    translateZ={20}
-                    as={Link}
-                    href={link1}
-                    target="__blank"
-                    className="w-[20px]"
-                  >
-                    <ShimmerButton title="GitHub" />
-                  </CardItem>
-                  <CardItem
-                    translateZ={20}
-                    as={Link}
-                    href={link2}
-                    target="__blank"
-                  >
-                    <LitUpButton title="Live Demo" />
-                  </CardItem>
+
+                  <div className="flex justify-center items-center text-nowrap">
+                    <Link href={link}>
+                      <ShimmerButton title="View Project" />
+                    </Link>
+                  </div>
                 </div>
               </CardBody>
             </CardContainer>
@@ -84,6 +71,6 @@ const RecentProjects = () => {
       </div>
     </div>
   );
-}
+};
 
-export default RecentProjects
+export default RecentProjects;
