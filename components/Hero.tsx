@@ -1,4 +1,4 @@
-import { FaDownload, FaGithub, FaLinkedin, FaLinkedinIn, FaLocationArrow, FaSquareGithub } from 'react-icons/fa6';
+import { FaAngleRight, FaLocationArrow} from 'react-icons/fa6';
 import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
@@ -24,12 +24,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          {/* <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-90">
-            Dynamic Web Magic with React.js and Next.js
-          </h2> */}
-
           <TextGenerateEffect
-            words="Hi! I'm Rishabh, a Web Developer based in India."
+            words="Hi! I'm Rishabh, a Frontend Developer based in India."
             className="text-center text-[40px] md:text-5xl lg:text-5xl"
           />
 
@@ -37,11 +33,11 @@ const Hero = () => {
             Always Learning, Always Building The Future Of The Web
           </p>
 
-          <div className="flex items-center justify-between gap-8">
-            <a href="https://drive.google.com/file/d/1UcZaqcPPOMsahfwg6XBE46VUIdGPgFr-/view?usp=sharing">
+          <div className="flex items-center justify-between text-nowrap gap-8">
+            <a href="#projects">
               <MagicButton
-                title="Download CV"
-                icon={<FaDownload />}
+                title="Explore My Work"
+                icon={<FaAngleRight />}
                 position="right"
               />
             </a>

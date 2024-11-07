@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
-  { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
@@ -74,7 +73,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Taskify - A Teamwork Project Management App",
+    title: "Taskify",
     des: "A dynamic project management app which  empowers users to collaborate, organize tasks, and manage projects effectively.",
     img: "/p1.svg",
     iconLists: [
@@ -82,16 +81,13 @@ export const projects = [
       "/next.svg",
       "/ts.svg",
       "/tail.svg",
-      "/prisma-icon.svg",
       "/postgresql-icon.svg",
-      "/supabase-icon.svg",
-      "/c.svg",
     ],
     link: "https://github.com/RishabhJain2404/taskify-app",
   },
   {
     id: 2,
-    title: "Schedulrr -An Online Appointment Scheduling Web App",
+    title: "Schedulrr",
     des: "A robust online appointment scheduling platform that empowers users to efficiently manage their schedules and collaborate with others.",
     img: "/p2.svg",
     iconLists: [
@@ -100,13 +96,12 @@ export const projects = [
       "/tail.svg",
       "/postgresql-icon.svg",
       "/prisma-icon.svg",
-      "/c.svg",
     ],
     link: "https://github.com/RishabhJain2404/Online-Appointment-Scheduling-App",
   },
   {
     id: 3,
-    title: "Hirrd - A Job Portal Web App",
+    title: "Hirrd",
     des: "A comprehensive job platform that streamlines the hiring process, empowering both candidates and employers to achieve their goals.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/supabase-icon.svg", "/c.svg"],
@@ -114,8 +109,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "ShortenIt - A URL Shortener Web App",
-    des: "A user-friendly web app that allows users to shorten long and complex URLs into concise, memorable links.",
+    title: "ShortenIt",
+    des: "A user-friendly web app that shortens long URLs into concise, shareable links, often with customizable options and analytics tracking.",
     img: "/p4.svg",
     iconLists: ["/re.svg", "/tail.svg", "/supabase-icon.svg"],
     link: "https://github.com/RishabhJain2404/ShortenIt-react-app",
@@ -149,7 +144,7 @@ export const skills = [
   },
   {
     id: 5,
-    name: "Tailwind",
+    name: "Tailwind CSS",
     img: "/tailwind-icon.svg",
     nameImg: "/dockerName.svg",
   },
